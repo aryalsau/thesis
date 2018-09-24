@@ -1,0 +1,274 @@
+\begin{thebibliography}{33}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Araujo-Pradere et~al.(2003)Araujo-Pradere, Fuller-Rowell, and
+  Bilitza]{iri_storm}
+E.~A. Araujo-Pradere, T.~J. Fuller-Rowell, and D.~Bilitza.
+\newblock ``Validation of the {STORM} response in {IRI}2000.'' \emph{Journal of
+  Geophysical Research: Space Physics}, 108\penalty0 (A3):\penalty0 1120, Mar.
+  2003.
+\newblock ISSN 2156-2202.
+\newblock \doi{10.1029/2002JA009720}.
+
+\bibitem[Bailey et~al.(2002)Bailey, Barth, and Solomon]{bailey2002}
+S.~M. Bailey, C.~A. Barth, and S.~C. Solomon.
+\newblock ``A model of nitric oxide in the lower thermosphere.'' \emph{Journal
+  of Geophysical Research: Space Physics}, 107\penalty0 (A8), 2002.
+
+\bibitem[Baker et~al.(2016)Baker, Jaynes, Kanekal, Foster, Erickson, Fennell,
+  Blake, Zhao, Li, Elkington, Henderson, Reeves, Spence, Kletzing, and
+  Wygant]{baker_dst}
+D.~N. Baker, A.~N. Jaynes, S.~G. Kanekal, J.~C. Foster, P.~J. Erickson, J.~F.
+  Fennell, J.~B. Blake, H.~Zhao, X.~Li, S.~R. Elkington, M.~G. Henderson, G.~D.
+  Reeves, H.~E. Spence, C.~A. Kletzing, and J.~R. Wygant.
+\newblock ``Highly relativistic radiation belt electron acceleration,
+  transport, and loss: {Large} solar storm events of {March} and {June} 2015.''
+  \emph{Journal of Geophysical Research: Space Physics}, 121\penalty0
+  (7):\penalty0 2016JA022502, July 2016.
+\newblock ISSN 2169-9402.
+\newblock \doi{10.1002/2016JA022502}.
+
+\bibitem[Baumgardner et~al.(1993)Baumgardner, Flynn, and Mendillo]{asi_1993}
+J.~L. Baumgardner, B.~Flynn, and M.~J. Mendillo.
+\newblock ``Monochromatic imaging instrumentation for applications in aeronomy
+  of the earth and planets.'' \emph{Optical Engineering}, 32\penalty0
+  (12):\penalty0 3028--3033, Dec. 1993.
+\newblock ISSN 0091-3286, 1560-2303.
+\newblock \doi{10.1117/12.149194}.
+
+\bibitem[Bilitza et~al.(1990)Bilitza, Rawer, Bossy, Kutiev, Oyama, Leitinger,
+  and Kazimirovsky]{iri}
+D.~Bilitza, K.~Rawer, L.~Bossy, I.~Kutiev, K.-I. Oyama, R.~Leitinger, and
+  E.~Kazimirovsky.
+\newblock ``International reference ionosphere 1990.'' Technical report, Nov.
+  1990.
+
+\bibitem[Chakrabarti et~al.(2012)Chakrabarti, Jokiaho, Baumgardner, Cook,
+  Martel, and Galand]{hitmis}
+S.~Chakrabarti, O.-P. Jokiaho, J.~Baumgardner, T.~Cook, J.~Martel, and
+  M.~Galand.
+\newblock ``High-throughput and multislit imaging spectrograph for extended
+  sources.'' \emph{Optical Engineering}, 51\penalty0 (1):\penalty0 013003--1,
+  2012.
+\newblock ISSN 0091-3286.
+\newblock \doi{10.1117/1.OE.51.1.013003}.
+
+\bibitem[Christensen et~al.(2003)Christensen, Paxton, Avery, Craven, Crowley,
+  Humm, Kil, Meier, Meng, Morrison, Ogorzalek, Straus, Strickland, Swenson,
+  Walterscheid, Wolven, and Zhang]{guvi}
+A.~B. Christensen, L.~J. Paxton, S.~Avery, J.~Craven, G.~Crowley, D.~C. Humm,
+  H.~Kil, R.~R. Meier, C.-I. Meng, D.~Morrison, B.~S. Ogorzalek, P.~Straus,
+  D.~J. Strickland, R.~M. Swenson, R.~L. Walterscheid, B.~Wolven, and Y.~Zhang.
+\newblock ``Initial observations with the {Global} {Ultraviolet} {Imager}
+  ({GUVI}) in the {NASA} {TIMED} satellite mission.'' \emph{Journal of
+  Geophysical Research: Space Physics}, 108\penalty0 (A12):\penalty0 1451, Dec.
+  2003.
+\newblock ISSN 2156-2202.
+\newblock \doi{10.1029/2003JA009918}.
+
+\bibitem[Fang et~al.(2012)Fang, Weng, and Sheng]{fang_variations_2012}
+H.~Fang, L.~Weng, and Z.~Sheng.
+\newblock ``Variations in the thermosphere and ionosphere response to the
+  17–20 {April} 2002 geomagnetic storms.'' \emph{Advances in Space Research},
+  49\penalty0 (10):\penalty0 1529--1536, May 2012.
+\newblock ISSN 0273-1177.
+\newblock \doi{10.1016/j.asr.2012.02.024}.
+
+\bibitem[Grubbs et~al.(2018{\natexlab{a}})Grubbs, Michell, Samara, Hampton,
+  Hecht, Solomon, and Jahn]{grubbs_compare}
+G.~Grubbs, R.~Michell, M.~Samara, D.~Hampton, J.~Hecht, S.~Solomon, and J.-M.
+  Jahn.
+\newblock ``A {Comparative} {Study} of {Spectral} {Auroral} {Intensity}
+  {Predictions} {From} {Multiple} {Electron} {Transport} {Models}.''
+  \emph{Journal of Geophysical Research: Space Physics}, 123\penalty0
+  (1):\penalty0 2017JA025026, Jan. 2018{\natexlab{a}}.
+\newblock ISSN 2169-9402.
+\newblock \doi{10.1002/2017JA025026}.
+
+\bibitem[Grubbs et~al.(2018{\natexlab{b}})Grubbs, Michell, Samara, Hampton, and
+  Jahn]{grubbs_multi_spec}
+G.~Grubbs, R.~Michell, M.~Samara, D.~Hampton, and J.-M. Jahn.
+\newblock ``Predicting {Electron} {Population} {Characteristics} in 2-{D}
+  {Using} {Multispectral} {Ground}-{Based} {Imaging}.'' \emph{Geophysical
+  Research Letters}, 45\penalty0 (1):\penalty0 2017GL075873, Jan.
+  2018{\natexlab{b}}.
+\newblock ISSN 1944-8007.
+\newblock \doi{10.1002/2017GL075873}.
+
+\bibitem[Gussenhoven et~al.(1981)Gussenhoven, Hardy, and Burke]{hardy}
+M.~Gussenhoven, D.~Hardy, and W.~Burke.
+\newblock ``DMSP/F2 electron observations of equatorward auroral boundaries and
+  their relationship to magnetospheric electric fields.'' \emph{Journal of
+  Geophysical Research: Space Physics}, 86\penalty0 (A2):\penalty0 768--778,
+  1981.
+
+\bibitem[Holzworth and Meng(1975)]{holzworthmeng}
+R.~Holzworth and C.-I. Meng.
+\newblock ``Mathematical representation of the auroral oval.''
+  \emph{Geophysical Research Letters}, 2\penalty0 (9):\penalty0 377--380, 1975.
+
+\bibitem[Ievenko et~al.(2008)Ievenko, Parnikov, and Alexeyev]{ievenko_2008}
+I.~B. Ievenko, S.~G. Parnikov, and V.~N. Alexeyev.
+\newblock ``Relationship of the diffuse aurora and {SAR} arc dynamics to
+  substorms and storms.'' \emph{Advances in Space Research}, 41\penalty0
+  (8):\penalty0 1252--1260, Jan. 2008.
+\newblock ISSN 0273-1177.
+\newblock \doi{10.1016/j.asr.2007.07.030}.
+
+\bibitem[Janhunen(2001)]{jan_rcons2001}
+P.~Janhunen.
+\newblock ``Reconstruction of electron precipitation characteristics from a set
+  of multiwavelength digital all-sky auroral images.'' \emph{Journal of
+  Geophysical Research: Space Physics}, 106\penalty0 (A9):\penalty0
+  18505--18516, Sept. 2001.
+\newblock ISSN 2156-2202.
+\newblock \doi{10.1029/2000JA000263}.
+
+\bibitem[Kosch et~al.(2001)Kosch, Honary, Pozo, Marple, and
+  Hagfors]{kosch_2001}
+M.~J. Kosch, F.~Honary, C.~d. Pozo, S.~R. Marple, and T.~Hagfors.
+\newblock ``High-resolution maps of the characteristic energy of precipitating
+  auroral particles.'' \emph{Journal of Geophysical Research: Space Physics},
+  106\penalty0 (A12):\penalty0 28925--28937, 2001.
+
+\bibitem[Kozyra et~al.(1997)Kozyra, Nagy, and Slater]{kozyra_1997}
+J.~U. Kozyra, A.~F. Nagy, and D.~W. Slater.
+\newblock ``High-altitude energy source(s) for stable auroral red arcs.''
+  \emph{Reviews of Geophysics}, 35\penalty0 (2):\penalty0 155--190, May 1997.
+\newblock ISSN 1944-9208.
+\newblock \doi{10.1029/96RG03194}.
+
+\bibitem[Levenberg(1944)]{levenberg}
+K.~Levenberg.
+\newblock ``A method for the solution of certain non-linear problems in least
+  squares.'' \emph{Quarterly of applied mathematics}, 2\penalty0 (2):\penalty0
+  164--168, 1944.
+
+\bibitem[Marquardt(1963)]{marquardt}
+D.~W. Marquardt.
+\newblock ``An algorithm for least-squares estimation of nonlinear
+  parameters.'' \emph{Journal of the society for Industrial and Applied
+  Mathematics}, 11\penalty0 (2):\penalty0 431--441, 1963.
+
+\bibitem[Mayr et~al.(1978)Mayr, Harris, and Spencer]{mayr_1978}
+H.~G. Mayr, I.~Harris, and N.~W. Spencer.
+\newblock ``Some properties of upper atmosphere dynamics.'' \emph{Reviews of
+  Geophysics}, 16\penalty0 (4):\penalty0 539--565, Nov. 1978.
+\newblock ISSN 1944-9208.
+\newblock \doi{10.1029/RG016i004p00539}.
+
+\bibitem[Mendillo et~al.(2016)Mendillo, Baumgardner, and Wroten]{mendillo_sar}
+M.~Mendillo, J.~Baumgardner, and J.~Wroten.
+\newblock ``{SAR} arcs we have seen: {Evidence} for variability in stable
+  auroral red arcs.'' \emph{Journal of Geophysical Research: Space Physics},
+  121\penalty0 (1):\penalty0 2015JA021722, Jan. 2016.
+\newblock ISSN 2169-9402.
+\newblock \doi{10.1002/2015JA021722}.
+
+\bibitem[Michell et~al.(2016)Michell, Samara, Grubbs, Ogasawara, Miller,
+  Trevino, Webster, and Stange]{michell_2016}
+R.~G. Michell, M.~Samara, G.~Grubbs, K.~Ogasawara, G.~Miller, J.~A. Trevino,
+  J.~Webster, and J.~Stange.
+\newblock ``{APES}: {Acute} {Precipitating} {Electron} {Spectrometer}—{A}
+  high time resolution monodirectional magnetic deflection electron
+  spectrometer.'' \emph{Journal of Geophysical Research: Space Physics},
+  121\penalty0 (6):\penalty0 2016JA022637, June 2016.
+\newblock ISSN 2169-9402.
+\newblock \doi{10.1002/2016JA022637}.
+
+\bibitem[Nagy and Banks(1970)]{nagybanks1970}
+A.~Nagy and P.~Banks.
+\newblock ``Photoelectron fluxes in the ionosphere.'' \emph{Journal of
+  Geophysical Research}, 75\penalty0 (31):\penalty0 6260--6270, 1970.
+
+\bibitem[Newville et~al.(2014)Newville, Stensitzki, Allen, and
+  Ingargiola]{lmfit}
+M.~Newville, T.~Stensitzki, D.~B. Allen, and A.~Ingargiola.
+\newblock ``{LMFIT: Non-Linear Least-Square Minimization and Curve-Fitting for
+  Python}.'' Sept. 2014.
+
+\bibitem[Ogasawara et~al.(2016)Ogasawara, Grubbs, Michell, Samara, Stange,
+  Trevino, Webster, and Jahn]{rocket}
+K.~Ogasawara, G.~Grubbs, R.~G. Michell, M.~Samara, J.~L. Stange, J.~A. Trevino,
+  J.~Webster, and J.-M. Jahn.
+\newblock ``Development and performance of a suprathermal electron spectrometer
+  to study auroral precipitations.'' \emph{The Review of Scientific
+  Instruments}, 87\penalty0 (5):\penalty0 053307, May 2016.
+\newblock ISSN 1089-7623.
+\newblock \doi{10.1063/1.4950901}.
+
+\bibitem[Pallamraju et~al.(2011)Pallamraju, Chakrabarti, and
+  Solomon]{pallamraju_2011}
+D.~Pallamraju, S.~Chakrabarti, and S.~C. Solomon.
+\newblock ``On deriving incident auroral particle fluxes in the daytime using
+  combined ground-based optical and radar measurements.'' \emph{Journal of
+  Geophysical Research: Space Physics}, 116\penalty0 (A4):\penalty0 A04309,
+  Apr. 2011.
+\newblock ISSN 2156-2202.
+\newblock \doi{10.1029/2010JA015934}.
+
+\bibitem[Picone et~al.(2002)Picone, Hedin, Drob, and Aikin]{msie}
+J.~M. Picone, A.~E. Hedin, D.~P. Drob, and A.~C. Aikin.
+\newblock ``{NRLMSISE}-00 empirical model of the atmosphere: {Statistical}
+  comparisons and scientific issues.'' \emph{Journal of Geophysical Research:
+  Space Physics}, 107\penalty0 (A12):\penalty0 1468, Dec. 2002.
+\newblock ISSN 2156-2202.
+\newblock \doi{10.1029/2002JA009430}.
+
+\bibitem[Rees(1963)]{rees_1963}
+M.~H. Rees.
+\newblock ``Auroral ionization and excitation by incident energetic
+  electrons.'' \emph{Planetary and Space Science}, 11\penalty0 (10):\penalty0
+  1209--1218, Oct. 1963.
+\newblock ISSN 0032-0633.
+\newblock \doi{10.1016/0032-0633(63)90252-6}.
+
+\bibitem[Rees and Luckey(1974)]{rees_1974}
+M.~H. Rees and D.~Luckey.
+\newblock ``Auroral electron energy derived from ratio of spectroscopic
+  emissions 1. {Model} computations.'' \emph{Journal of Geophysical Research},
+  79\penalty0 (34):\penalty0 5181--5186, Dec. 1974.
+\newblock ISSN 2156-2202.
+\newblock \doi{10.1029/JA079i034p05181}.
+
+\bibitem[Rees and Roble(1975)]{rees_1975}
+M.~H. Rees and R.~G. Roble.
+\newblock ``Observations and theory of the formation of stable auroral red
+  arcs.'' \emph{Reviews of Geophysics}, 13\penalty0 (1):\penalty0 201--242,
+  Feb. 1975.
+\newblock ISSN 1944-9208.
+\newblock \doi{10.1029/RG013i001p00201}.
+
+\bibitem[Reinisch and Galkin(2011)]{giro}
+B.~W. Reinisch and I.~A. Galkin.
+\newblock ``Global {Ionospheric} {Radio} {Observatory} ({GIRO}).'' \emph{Earth,
+  Planets and Space}, 63\penalty0 (4):\penalty0 377--381, Apr. 2011.
+\newblock ISSN 1880-5981.
+\newblock \doi{10.5047/eps.2011.03.001}.
+
+\bibitem[Semeter and Kamalabadi(2005)]{semeter_2005}
+J.~Semeter and F.~Kamalabadi.
+\newblock ``Determination of primary electron spectra from incoherent scatter
+  radar measurements of the auroral {E} region.'' \emph{Radio Science},
+  40\penalty0 (2):\penalty0 RS2006, Apr. 2005.
+\newblock ISSN 1944-799X.
+\newblock \doi{10.1029/2004RS003042}.
+
+\bibitem[Solomon and Abreu(1989)]{solomon1989630}
+S.~C. Solomon and V.~J. Abreu.
+\newblock ``The 630 nm dayglow.'' \emph{Journal of Geophysical Research: Space
+  Physics}, 94\penalty0 (A6):\penalty0 6817--6824, 1989.
+
+\bibitem[Solomon et~al.(1988)Solomon, Hays, and Abreu]{solomon_1988}
+S.~C. Solomon, P.~B. Hays, and V.~J. Abreu.
+\newblock ``The auroral 6300 Å emission: {Observations} and modeling.''
+  \emph{Journal of Geophysical Research: Space Physics}, 93\penalty0
+  (A9):\penalty0 9867--9882, Sept. 1988.
+\newblock ISSN 2156-2202.
+\newblock \doi{10.1029/JA093iA09p09867}.
+
+\end{thebibliography}

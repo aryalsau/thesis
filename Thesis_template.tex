@@ -1,0 +1,43 @@
+%!TEX root = Thesis.tex
+% Put your chapters in separate tex files with no preamble
+% Make sure the top line of this file is also at the top of each chapter (commented)
+
+\documentclass[12pt,letterpaper,oneside,openright]{book}
+\usepackage[top=1in, bottom=1in, left=1.5in, right=1in]{geometry}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+%\usepackage{epstopdf}
+%\epstopdfsetup{update}
+\usepackage[nodisplayskipstretch]{setspace}
+
+
+%Turns double spacing to normal spacing inside other envionments
+\everydisplay\expandafter{\the\everydisplay\setstretch{1}}% return to singlespacing
+
+\begin{document}
+%\input{} % put your coverpage here
+
+%\singlespace
+\doublespace
+
+\frontmatter                            % (roman page #s)
+\tableofcontents
+\listoffigures
+%\listoftables
+
+\let\cleardoublepage\clearpage
+\mainmatter
+
+% Put your chapters here. Name each chapter with the "\chapter" command and put the corresponding name of the tex file in "\input"
+\chapter{}
+\input{}
+
+
+%%Uncomment for Bibliography
+%\newpage
+% Bibliography
+%\bibliographystyle{unsrt}
+%\addcontentsline {toc}{chapter}{References }
+%\bibliography{References}
+\end{document}
