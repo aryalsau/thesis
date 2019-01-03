@@ -11,7 +11,7 @@ Measurements of the IT system is generally done using various plasma, neutral an
 
 Since the ionosondes requires small, portable radio wave generators and detectors, a network of ionosondes can be created (for example see \citet{giro}). While ISRs require large radio antennas, they can provide local spatial variations and be used to probe more plasma parameters (like temperatures and velocity) which ionospheric sounding can't probe. Similar to ionosonde, measurements form multiple network of GPS satellites allows for maps of TEC over large areas to be constructed, providing global morphology. 
 
-Other measurement of the IT system include various in-situ charge particle detectors, mass spectrometers, etc., that can make direct measurements of plasma and neutral densities. Furthermore, optical measurements from ground and space can also be used to study the IT system if the processses involved in the observed emission is known. 
+Other measurement of the IT system include various in-situ charge particle detectors, mass spectrometers, etc., that can make direct measurements of plasma and neutral densities. Furthermore, optical measurements from ground and space can also be used to study the IT system if the processes involved in the observed emission is known. 
 
 \subsection{Optical Remote Sensing}
 
@@ -31,7 +31,7 @@ While satellite-based optical measurements provide excellent spatial coverage, t
 
 \section{HiT\&MIS}
 
-The spectral data used in this thesis was collected using the HiT\&MIS instrument, which is a high-resolution ($\approx$ 0.02 nm at 630.0 nm) spectrograph, that can work on a round the clock basis \citep{hitmis}. HiT\&MIS follows a list of similar imagers that use a combination of slits, interference filters with the Echelle grating to select and image emission features of interest. These instruments include High Throughput Imaging Echelle Spectrograph (HiTIES, \cite{hities}), High-Resolution Imaging Spectrograph using Echelle grating (HIRISE, \cite{hirise}), Multi-wavelength Imaging Spectrograph using Echelle grating (MISE, \cite{mise}), Continuous High-resolution Instrument for Multiwavelength Echelle Spectroscopy (CHIMES, \cite{chimes}), etc. Each instrument was designed to image specific emissions at specific settings. For example, HiTIES was designed for night-time/twilight-time measurements, while CHIMES was designed for daytime measurements. These measurement constraints arise because requirements for daytime and night-time/twilight-time imaging are different. During the daytime, the solar background is orders of magnitude higher than the airglow/auroral emission signal, and thus high resolution is required to match with a solar reference spectrum so that the solar contribution can be subtract out. To obtain this, maximum dispersion of collected light is necessary which is achieved by using narrower slits as the throughput is not an issue during the day. During nighttime, the the slit needs to be wide enough to have a enough throughput at reasonable temporal resolution. Thus, for round-the-clock measurement, the instrument needs to be designed to match both high-throughput and high-resolution requirements and be portable (Figure \ref{fig:hitmis_tripod}). This is where HiT\&MIS comes into consideration.
+The spectral data used in this thesis was collected using the HiT\&MIS instrument, which is a high-resolution ($\approx$ 0.02 nm at 630.0 nm) spectrograph, that can work on a round the clock basis \citep{hitmis}. HiT\&MIS follows a list of similar imagers that use a combination of slits, interference filters with the Echelle grating to select and image emission features of interest. These instruments include High Throughput Imaging Echelle Spectrograph (HiTIES, \cite{hities}), High-Resolution Imaging Spectrograph using Echelle grating (HIRISE, \cite{hirise}), Multi-wavelength Imaging Spectrograph using Echelle grating (MISE, \cite{mise}), Continuous High-resolution Instrument for Multiwavelength Echelle Spectroscopy (CHIMES, \cite{chimes}), etc. Each instrument was designed to image specific emissions at specific settings. For example, HiTIES was designed for night-time/twilight-time measurements, while CHIMES was designed for daytime measurements. These measurement constraints arise because requirements for daytime and night-time/twilight-time imaging are different. During the daytime, the solar background is orders of magnitude higher than the airglow/auroral emission signal, and thus high resolution is required to match with a solar reference spectrum so that the solar contribution can be subtract out. To obtain this, maximum dispersion of collected light is necessary which is achieved by using narrower slits as the throughput is not an issue during the day. During nighttime, the slit needs to be wide enough to have a enough throughput at reasonable temporal resolution. Thus, for round-the-clock measurement, the instrument needs to be designed to match both high-throughput and high-resolution requirements and be portable (Figure \ref{fig:hitmis_tripod}). This is where HiT\&MIS comes into consideration.
 
 \begin{figure}[H]
 	\centering\includegraphics[width=25pc]{Hitmis_tripod_mount.JPG}
@@ -39,10 +39,10 @@ The spectral data used in this thesis was collected using the HiT\&MIS instrumen
 	\label{fig:hitmis_tripod}
 \end{figure}
 
-The theoretical design of HiT\&MIS is schematically shown in Figure \ref{fig:hitmis}. It has a field of view of approximately 0.1$^\circ$ $\times$ 50$^\circ$ and a dispersion of about 0.02 nm/px in its current iteration.  Light enters through the four slits (numbered 1-4 in Figure \ref{fig:hitmis}), each of which is fitted with a narrow band filter (transmission properties listed in Figure \ref{fig:hitmis_tr}). There is also a mosaic of filters that are placed at the image plane. The light that has passed through the slits and the four entrance filters passes through a collimating lens (collimator/camera in Figure \ref{fig:hitmis}) and gets dispersed by the echelle grating in a near Littrow configuration. The diffracted light goes back into the same collimating lens that now acts as an imaging lens into a mosaic of interference filters (image plane filters in Figure \ref{fig:hitmis}). This combination of filters at the slits and the mosaic filters determines what spectral information is imaged. The image is then reflected through a folding mirror and refocused via a camera lens onto the CCD detector with 1024 by 1024 pixels \citep{hitmis}.
+The theoretical design of HiT\&MIS is schematically shown in Figure \ref{fig:hitmis}. It has a field of view of approximately 0.1$^\circ$ $\times$ 50$^\circ$ and a dispersion of about 0.02 nm/px in its current iteration.  Light enters through the four slits (numbered 1-4 in Figure \ref{fig:hitmis}), each of which is fitted with a narrow band filter (transmission properties listed in Figure \ref{fig:hitmis_tr}). There is also a mosaic of filter that is placed at the image plane. The light that has passed through the slits and the four entrance filters passes through a collimating lens (collimator/camera in Figure \ref{fig:hitmis}) and gets dispersed by the echelle grating in a near Littrow configuration. The diffracted light goes back into the same collimating lens that now acts as an imaging lens into a mosaic of interference filters (image plane filters in Figure \ref{fig:hitmis}). This combination of filters at the slits and the mosaic filters determines what spectral information is imaged. The image is then reflected through a folding mirror and refocused via a camera lens onto the CCD detector \citep{hitmis}.
 \begin{figure}[H]
 	\centering\includegraphics[width=25pc]{hitmis.png}
-	\caption{Schematic diagram of HiT\&MIS. Adapted from \cite{hitmis}.}
+	\caption{Schematic diagram of the internal optics of the HiT\&MIS instrument. Adapted from \cite{hitmis}.}
 	\label{fig:hitmis}
 \end{figure}
 %%%
@@ -66,7 +66,7 @@ The spectral images were recorded using an Charged Coupled Device (CCD) camera c
 \begin{figure}[H]
 	\centering\includegraphics[width=30pc]{bias.png}
     \centering\includegraphics[width=30pc]{dark.png}
-	\caption{Top: Histogram of the master bias, with a mean value of $\sim$ 300 ADU/pixel.  Bottom: Histogram of the master dark current, with mean value of 0.019 ADU/px s.}
+	\caption{Top: Histogram of the master bias, with a mean value of $\sim$ 300 ADU/pixel.  Bottom: Histogram of the master dark current, with mean value of 0.019 ADU px$^{-1}$ s$^{-1}$.}
 	\label{fig:biasdark}
 \end{figure}
 
@@ -74,19 +74,19 @@ The spectral images were recorded using an Charged Coupled Device (CCD) camera c
 \begin{figure}[H]
 	\centering\includegraphics[width=20pc]{night_raw.png}
     \centering\includegraphics[width=20pc]{day_raw.png}
-	\caption{Top: Sample night-time raw image from HiT\&MIS at 22:30 PM LT on June 22, 2015 with 60 s exposure. Bottom: Sample daytime raw image with 0.1 s exposure time at 17:30 PM LT on ths same day. Notice couple of spectral emission features are visible at night while absorbtion features are visible during the day}
+	\caption{Top: Sample night-time raw image from HiT\&MIS at 22:30 PM LT on June 22, 2015 with 60 s exposure. Bottom: Sample daytime raw image with 0.1 s exposure time at 17:30 PM LT on ths same day. Notice couple of spectral emission features are visible at night while absorbtion features are visible during the day.}
 	\label{fig:raw_1}
 \end{figure}
 %
-Figure \ref{fig:raw_1} shows an example of raw images collected by HiT\&MIS during day and night. While designing HiT\&MIS a ray trace simulation that was initially used to determine the different filters used instruments \citep{hitmis}. A set of filters were chosen to only let in lights around wavelength of interest (see Figure \ref{fig:hit_if}, top). Based on this ray trace result, mosaic of filters were chosen to select only the wavelength's of interest (Figure \ref{fig:hit_if}, bottom). This ray-trace can also be utilized to find the emission line center location on the CCD. During night, with enough cadence ($\sim$~60 s+) the red and the green lines are clearly visible on the detector (Figure \ref{fig:raw_1}, top). Similarly, during the day, the H$_\alpha$ and H$_\beta$ emissions show up as absorption features in the raw image (Figure \ref{fig:raw_1}, bottom). Thus, these ray trace results can be over-laid over the four emission feature location in the to validate the ray-trace simulation estimates as well as to to find emission line center locations. 
+Figure \ref{fig:raw_1} shows an example of raw images collected by HiT\&MIS during day and night. While designing HiT\&MIS a ray trace simulation that was initially used to determine the different filters used instruments \citep{hitmis}. A set of filters were chosen to only let in lights around wavelength of interest and the emission features dispersed by the echelle was simulated (see Figure \ref{fig:hit_if}, top). Based on this ray trace result, mosaic of filters were chosen to select only the wavelength's of interest and the a ray trace was generated again using both entrance and the imaging mosaid filters (Figure \ref{fig:hit_if}, bottom). This final ray-trace can also be utilized to find the emission line center location on the CCD. During night, with enough cadence ($\sim$~60 s+) the red and the green lines are clearly visible on the detector (Figure \ref{fig:raw_1}, top). Similarly, during the day, the H$_\alpha$ and H$_\beta$ emissions show up as absorption features in the raw image (Figure \ref{fig:raw_1}, bottom). Thus, the ray trace results can be over-laid over the four emission feature location in the to validate the ray-trace simulation estimates as well as to to find emission line center locations. 
 \begin{figure}[H]
 	\centering\includegraphics[width=30pc]{hit_i.png}
     \centering\includegraphics[width=30pc]{hit_f.png}
-	\caption{Top: Ray trace modeling of emission lines from HiT\&MIS with only the entrance slits and filters. Bottom: Ray trace modeling of emission lines of interest from HiT\&MIS with the entrance slits and filters plus the image plane mosaic of filters. Notice, the overlapping lines disappear with the inclusion of mosaic of filters. Plot generated by Kuravi Hewawassam, UML}
+	\caption{Top: Ray trace modeling of emission lines from HiT\&MIS with only the entrance slits and filters. Bottom: Ray trace modeling of emission lines of interest from HiT\&MIS with the entrance slits and filters plus the image plane mosaic of filters. Notice that the overlapping lines disappear with the inclusion of mosaic of filters. Plot generated by Kuravi Hewawassam, UML}
 	\label{fig:hit_if}
 \end{figure}
 
-The details of the the ray-trace simulation are now provided. To start, the following assumption were made to simplify the problem:
+The details of the the ray-trace simulation, similar to (but not the same) that used in \cite{hitmis} are now provided. To start, the following assumption were made to simplify the problem:
 \begin{itemize}
 \item all the filters were assumed to let in lights within $\pm$ 20 nm from central wavelength.
 \item No estimates of the intensity was included, the light either came through or they didn't (binary scheme).
@@ -97,7 +97,7 @@ The details of the the ray-trace simulation are now provided. To start, the foll
 %%
 \begin{figure}[H]
 	\centering\includegraphics[width=35pc]{grating_stp.png}
-	\caption{Spectral dispersion due to a grating. }
+	\caption{Geometry of spectral dispersion from to a grating. }
 	\label{fig:grating}
 \end{figure}
 
@@ -110,15 +110,14 @@ The light that entered through the entrance filters, now encountered the Echelle
 %%
 \begin{equation}
 \large
-\implies~~\beta_n~=sin^{-1}\Big(\frac{n~\lambda~}{d~sin\gamma~}~-sin\alpha\Big),
+\implies~~\beta_n~=sin^{-1}\Big(\frac{n~\lambda~}{d~sin\gamma~}~-sin\alpha\Big).
 \end{equation}
-where, d is the groove density of the grating, $\beta_n$ is the dispersion angle of the n$^{th}$ order at a particular ray entering through the slit at an angle $\gamma$ with respect to y-axis (see Figure \ref{fig:grating}). By measuring possible range of angles between the grating and the slit the light making towards the mosaic can be simulated by taking following steps:
+Here, d is the groove density of the grating, $\beta_n$ is the dispersion angle of the n$^{th}$ order at a particular ray entering through the slit at an angle $\gamma$ with respect to y-axis (see Figure \ref{fig:grating}). By measuring possible range of angles between the grating and the slit, the emissions at the imaging plane were simulated by taking following steps:
 \begin{itemize}
 \item Step1: Simulate all the emission lines passing through the slits, entrance filters and the grating (Figure \ref{fig:hit_if}, top). 
 \item Step 2: Simulate the emission line that pass through the entrance slits that get dispersed by grating and select the mosaic of filters at the imaging plane that would only allow emissions of interest to pass through (Figure \ref{fig:hit_if}, bottom).
 \end{itemize}
-
-Once the ray-trace estimation location matches what is seen in the image (Figure \ref{fig:raw_line}), the region around the emission of interest are extracted for further (Figure \ref{fig:cut_hm}). 
+Once the ray-trace estimation location were made to match what was seen in the raw image (Figure \ref{fig:raw_line}), the region around the emission of interest are extracted for further analysis (Figure \ref{fig:cut_hm}). 
 \begin{figure}[H]
 	\centering\includegraphics[width=32pc]{night_hm.png}
     \centering\includegraphics[width=32pc]{day_hm.png}
@@ -133,20 +132,20 @@ Once the ray-trace estimation location matches what is seen in the image (Figure
 \end{figure}
 
 \subsection{Photo-metric calibration}
-HiT\&MIS creates spectral images of emissions as a function of wavelength and zenith angle (Figure \ref{fig:cut_hm}). For each spectral feature, the emission region over a narrow range of wavelength ($\approx$ $\pm$0.3 nm from the line center) was extracted from the image. Then, the curvature in the measured spectrum as a function of zenith angle due to the slit geometry was corrected by transforming the cut-out spectral image such that the pixels with emission peaks are moved to the center. Finally, the background was estimated by averaging values on both side of the spectral feature and subtracted from the data, to obtain the signal, S. This gave us the spectral signal (S), the background (B) and the readout noise (RN, standard deviation of the bias frame). The background subtracted spectra (un-calibrated) was now represented as: $S \pm \sqrt{(S+B) + RN^2}$.  The analysis presented here applies only for night time data analysis. Daytime spectral imaging procedure for spectral imagers like HiT\&MIS is provided in Chapter 5.
+HiT\&MIS creates spectral images of emissions as a function of wavelength and zenith angle (Figure \ref{fig:cut_hm}). For each spectral feature, the emission region over a narrow range of wavelength ($\approx$ $\pm$0.3 nm from the line center) was extracted from the image as mentioned in the last section. Then, the curvature in the measured spectrum as a function of zenith angle due to the slit geometry was corrected by transforming the cut-out spectral image such that the pixels with emission peaks are moved to the center. Finally, the baseline was estimated by averaging values on both side of the spectral feature and subtracted from the data, to obtain the signal, S. This gives the spectral signal (S), the background (B) and the readout noise (RN, standard deviation of the bias frame). The background subtracted spectra (un-calibrated) can now be represented as: $S \pm \sqrt{(S+B) + RN^2}$.  The analysis presented here applies only for night time data analysis. Possible daytime spectral imaging procedure for spectral imagers like HiT\&MIS is provided in Chapter 5.
 
 
 \begin{figure}[H]
 	\centering\includegraphics[width=30pc]{sen.png}
-	\caption{Master noise reduced sensitivity image obtained by illuminating a calibrated lamp on to HiT\&MIS. As the output of the lamp as a function of the wavelength is known, this image was used to convert background subtracted data counts to photon counting units. }
+	\caption{Noise reduced master sensitivity image obtained by illuminating a calibrated lamp on to HiT\&MIS. As the output of the lamp as a function of the wavelength is known, this image was used to convert background subtracted data counts to photon counting units. }
 	\label{fig:sen}
 \end{figure}
 
-A C-14 activated light source was used to calibrate the signal photo-metrically. This was done by illuminating HiT\&MIS with the calibration lamp for different increasing exposure times. These images were dark noise subtracted and averaged to get an the sensitivity of the instrument (in ADU per seconds) at each pixel (Figure \ref{fig:sen}). The output of the lamp is known and this was used to calibrate image data counts to physical units (in Raleigh $\rm {\AA}^{-1}$, see Figure \ref{fig:calib}, top). The calibrated spectra were averaged over different look direction bins (see Figure \ref{fig:calib}, bottom) to obtain a representative spectrum. Integrating the spectrum along the wavelength axis gives the line of sight brightness at different look directions. 
+A C-14 activated light source was used to calibrate the signal photo-metrically. This was done by illuminating HiT\&MIS with the calibration lamp for different increasing exposure times. These images were dark noise subtracted and averaged to get an the sensitivity of the instrument (in ADU per seconds) at each pixel (Figure \ref{fig:sen}). The output of the lamp is known and this was used to calibrate image data counts to physical units (in Raleigh $\rm {\AA}^{-1}$, see Figure \ref{fig:calib}, top). The calibrated spectra can then be averaged over different look direction bins (see Figure \ref{fig:calib}, bottom) to obtain a representative spectrum. Integrating the spectrum along the wavelength axis gives the line of sight brightness at different look directions. 
 \begin{figure}[H]
 	\centering\includegraphics[width=30pc]{feature_img.png}
     \centering\includegraphics[width=30pc]{feature_spectra.png}
-	\caption{Top: Curvature (due to slit geometry) straitened noise reduced and photometrically calibrated spectra in red line, green line, blue line and OI 777.4 nm. Bottom: Same as top but averaged over look directions.}
+	\caption{Top: Curvature (due to slit geometry) straitened, noise reduced and photometrically calibrated spectra in red line, green line, blue line and OI 777.4 nm. Bottom: Same as top but averaged over look directions.}
 	\label{fig:calib}
 \end{figure}
 
@@ -154,7 +153,7 @@ A C-14 activated light source was used to calibrate the signal photo-metrically.
 In addition to the optical remote sensing techniques, other techniques directly or indirectly used in this thesis are described in brief below. 
 
 \subsection{Incoherent Scatter Radar (ISR)}
-While ISR derived results are not used directly in this thesis, other various other work cited in this thesis use ISR derived parameters extensively and thus a simplified picture of ISR is provided. Since the early 1960's, the Incoherent Scatter Radar has been the most used techniques to probe the ionosphere. This technique utilizes the incoherent scattering of the radio waves by ions and electrons in the ionosphere which occurs when the wavelength of the probing radio wave is smaller than the Debye length \citep{dougherty1963theory}. Above the Debye length the charge particles are affected by each other such that the collective properties becomes coherent, both spatially and temporally. In general, the ISR measurements are not completely incoherent or coherent, however if the profiles of the incoherent back scatter are known they can be compared with theoretical models to obtain ionospheric parameters. 
+While ISR derived results are not used directly in this thesis, various other work cited in this thesis use ISR derived parameters extensively and thus a simplified picture of ISR is provided. Since the early 1960's, the Incoherent Scatter Radar has been the most used techniques to probe the ionosphere. This technique utilizes the incoherent scattering of the radio waves by ions and electrons in the ionosphere which occurs when the wavelength of the probing radio wave is smaller than the Debye length \citep{dougherty1963theory}. Above the Debye length (see Chapter 1) the charge particles are affected by each other such that the collective properties becomes coherent, both spatially and temporally. In general, the ISR measurements are not completely incoherent or coherent, however if the profiles of the incoherent back scatter are known they can be compared with theoretical models to obtain ionospheric parameters. 
 %%%%
 \begin{figure}[H]
 	\centering\includegraphics[width=30pc]{isr.jpg}
@@ -162,10 +161,10 @@ While ISR derived results are not used directly in this thesis, other various ot
 	\label{fig:isr_a}
 \end{figure}
 
-In a simplified picture, the ISR technique works by sending high power radio waves at a fixed frequency, using a giant transmitter and antenna setup (see Figure \ref{fig:isr_a}). These radio-waves are then back-scattered by the electrons and ions which can be used to infer the their bulk properties. Since the ions are orders of magnitude heavier than the electrons, in frequency domain, the radio-waves back-scattered by the electrons and ions have completely different profiles (Figure \ref{fig:isr}), and hence can be used to probe both. In a simplified picture, the shift in frequency, the doppler width, and the area of the back-scattered profiles then are related to the line of sight velocity, the temperature and the density, respectively. The radio-pulse sent to probe the ionosphere for ISR measurements, can be coded depending on the phenomenon to be studied and the altitudes.
+The ISR technique works by sending high power radio waves at a fixed frequency, using a giant transmitter and antenna setup (see Figure \ref{fig:isr_a}). These radio-waves are then back-scattered by the electrons and ions incoherently which can be used to infer the their bulk properties. Since the ions are orders of magnitude heavier than the electrons, in frequency domain, the radio-waves back-scattered by the electrons and ions have completely different profiles (Figure \ref{fig:isr}), and hence can be used to probe both. In a simplified picture, the shift in frequency, the doppler width, and the area of the back-scattered profiles then are related to the line of sight velocity, the temperature and the plasma density, respectively. The radio-pulse sent to probe the ionosphere for ISR measurements, can be coded depending on the phenomenon to be studied and the altitude of focus.
 \begin{figure}[H]
 	\centering\includegraphics[width=30pc]{isr.png}
-	\caption{ISR back scatter profile. Image adapted from Dr. Anja Str{\"o}mme's ISR summer school 2017 presentation.}
+	\caption{ISR back scatter profile, and what different part of the profile signify. Adapted from \cite{anja}.}
 	\label{fig:isr}
 \end{figure}
 
@@ -173,15 +172,15 @@ In a simplified picture, the ISR technique works by sending high power radio wav
 Global Positioning System (GPS) uses multiple earth orbiting satellites ($\sim$ 32+) to mathematically triangulate a position on Earth. While GPS satellites are not geo-synchronous, if at least four satellites are visible at a given time, a receiver can accurately determine its location and velocity with the help an atomic clock (accuracy of 1 billionth of a second). As GPS technology uses radio signals to operate, the ionospheric plasma modulate the signal via radio waves plasma interaction. This modulation in both phase and amplitude of the signal is a proxy to the total electron content (TEC) the signal encounters along its path. With multiple receivers and GPS satellites, a map of the TEC can be made to study the effect of different phenomenon in the IT system. In this thesis, the Differential TEC( DTEC), which is the dynamic part of the TEC is used to study plasma waves in the IT system.
 \begin{figure}[H]
 	\centering\includegraphics[width=30pc]{6-0.png}
-	\caption{Schematic of GPS based TEC measurement. Source Dr. T. Tsugawa, NICT}
+	\caption{Schematic of GPS based TEC measurement. Source: \cite{tsugawa}.}
 	\label{fig:gps}
 \end{figure}
 
 \subsection{Vertical Ionospheric Sounders (Ionosondes)}
-Ionospheric sounding is another radio measurement technique to probe ionospheric plasma. It uses reflection of radio-waves above a critical frequency from the ionospheric plasma. Since the ionosphere is stratified into different plasma density peaks, by probing in a range of radio frequencies, a vertical profile of the plasma density infered. Thus, ionosonde broadcast radio waves at different frequencies which are then reflected only at certain frequencies from a particular ionospheric height which is then detected at ground (see Figure \ref{fig:digi_im} for the ionosonde setup). However, since the receiving times are different depending the altitude of reflection, an ionogram (like \ref{fig:digi_is}) is generated that can be converted into electron density profile.
+Ionospheric sounding is another radio measurement technique to probe ionospheric plasma. It uses reflection of radio-waves above a critical frequency from the ionospheric plasma. Since the ionosphere is stratified into different plasma density peaks (Chapman layers), by probing in a range of radio frequencies, a vertical profile of the plasma density inferred. Thus, ionosonde broadcast radio waves at different frequencies which are then reflected only at certain frequencies from a particular ionospheric height which is then detected at ground (see Figure \ref{fig:digi_im} for the ionosonde setup). However, since the receiving times are different depending the altitude of reflection, an ionogram (like \ref{fig:digi_is}) is generated that can be converted into electron density profile.
 \begin{figure}[H]
 	\centering\includegraphics[width=30pc]{ionosonde.png}
-	\caption{Schematic of a ionosonde system. Source: Australian Bureau of Meteorology}
+	\caption{Schematic of a ionosonde system. Source: \cite{heather}.}
 	\label{fig:digi_im}
 \end{figure}
 
@@ -203,7 +202,7 @@ From the equation \theequation, it follows that  the index of refraction for fre
 
 
 \subsection{Magnetometers}
-Magnetometers can be used to make precise measurement of the magnetic fields as they are useful in various scientific research (cite). While there are magnetometers that sense the magnetic field using other principles, only the fluxgate magnetometer is discussed herein. 
+Magnetometers can be used to make precise measurement of the magnetic fields. While there are magnetometers that sense the magnetic field using other principles, only the fluxgate magnetometer is discussed herein. 
 
 \begin{figure}[H]
 	\centering\includegraphics[width=30pc]{magnto.png}
@@ -211,10 +210,10 @@ Magnetometers can be used to make precise measurement of the magnetic fields as 
 	\label{fig:magnemtr}
 \end{figure}
 
-Based on \citep{ripka2001magnetic}, a coil of wire with N turns and area A wrapped around a core with high relative magnetic permeability, $\mu_r$; the magnetic constant, $\mu_0$, a changing magnetic field, B, with associated flux, $\Phi$, will induce a voltage V such that,
+Based on \citep{ripka2001magnetic}, a coil of wire with N turns and area A wrapped around a core with high relative magnetic permeability $\mu_r$; the magnetic constant $\mu_0$, a changing magnetic field B, with associated flux $\Phi$, will induce a voltage V such that,
 \begin{equation*}
-V~= \frac{d}{dt}\Phi~~=\frac{d}{dt}(N~A~\mu_{0}~\mu_{r}~B)
-\end{equation*}using the Faraday's law. If B, A, and $\mu_r$ change with time, the voltage, V can be written as,
+V~= \frac{d}{dt}\Phi~~=\frac{d}{dt}(N~A~\mu_{0}~\mu_{r}~B),
+\end{equation*}using the Faraday's law. If B, A, and $\mu_r$ are functions of time, the voltage, V can be written as,
 \begin{equation}
 V=~N~A~\mu_{0}~\mu_{r}\frac{dB}{dt}+N~A~\mu_{0}~\mu_{r}~B\frac{dA}{dt}+N~A~\mu_{0}~B\frac{d\mu_{r}}{dt}
 \end{equation}
@@ -233,14 +232,14 @@ All sky imagers use narrow-band interference filters ($\sim \pm$ 20 nm from the 
 	\label{fig:asi_s}
 \end{figure}
 
-ASI's give 2D auroral/airglow brightnesses; however, no spectral information can be obtained and thus there is a need to deal with contamination from nearby spectral features. This is in contrast with spectral imagers (like HiT\&MIS), where higher spectral resolution ($>$ 0.1 nm ) allows for only the brightness feature of interest to be extracted, however only 1D airglow/auroral brightnesses (along the slit) can be observed.
+ASI's give 2D auroral/airglow brightnesses; however, no spectral information can be obtained and thus there is a need to deal with contamination from nearby spectral features. This is in contrast with spectral imagers (like HiT\&MIS), where higher spectral resolution ($\sim$ 0.1 nm or less) allows for only the brightness feature of interest to be extracted, however only 1D airglow/auroral brightnesses (along the slit) can be observed.
 \begin{figure}[H]
 	\centering\includegraphics[width=30pc]{asi_mul.png}
 	\caption{Near simultaneous raw ASI images in red line and OI: 777.4 nm at El Leoncito, Argentina on 30 May, 2003. From \cite{martinis2006imaging}  }
 	\label{fig:asi_mult}
 \end{figure}
 
-Typically, ASI's use filter wheels to image multiple emissions of interest near simultaneously. Figure \ref{fig:asi_mult} shows near simultaneous raw ASI images at red line and OI: 777.4 nm line. Since the fish eye lens projects the features that are more spherical in 3D (due to the Earth's geometry) into a 2D image, the images at the edges are stretched. Thus, to project these emissions on to the map they are typically transformed based on the location ofthe ASI and the peak height at which the emissions occur(see Figure \ref{fig:asi_urap}).
+Typically, ASI's use filter wheels to image multiple emissions of interest near simultaneously. Figure \ref{fig:asi_mult} shows near simultaneous raw ASI images at red line and OI: 777.4 nm line. Since the fish eye lens projects the features that are more spherical in 3D (due to the Earth's geometry) into a 2D image, the images near the edges are stretched. Thus, to project these emissions on to the map they are typically transformed based on the geographic location of the ASI and the peak height at which the emissions occur (see Figure \ref{fig:asi_urap}).
 
 \begin{figure}[H]
 	\centering\includegraphics[width=30pc]{asi_urap.png}
